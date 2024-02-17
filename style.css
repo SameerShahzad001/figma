@@ -1,0 +1,406 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.but{
+    border: none;
+    border-radius: 
+    5.95px;
+    background-color: 
+    #75BF7A;
+    color: white;
+    height:35px;
+    width: 135px;
+    font-weight: 500;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+}
+.nav-item{
+    margin-left: 18px;
+   font-weight: 450;
+}
+.carimg{
+
+   text-align: center;
+}
+.carimg>img{
+    width: 75%;
+}
+.sli1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.b{
+    margin-top: 18px;
+}
+.b2{
+    margin-left: 15px;
+}
+.sli1>div>h1{
+    font-weight: 800;
+    line-height: 
+    65.91px;
+    font-size: 55px;
+    color: black;
+}
+.sli1>div>p{
+    color: #9E9DA2;
+    font-size: 
+    20px;
+    margin-top: 10px;
+}
+
+/* Form Section */
+.thirdpart{
+    background-color: #75BF7A;
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+
+.titleForm {
+    margin-bottom: 0px;
+    color: white;
+}
+.inputbut>input{
+    border: none;
+    border-radius:    4.39px;
+width: 340px;
+height: 45px;
+}
+.inputbut>button{
+    border: none;
+    border-radius:    4.39px;
+width: 160px;
+height: 45px;
+background-color: black;
+color: white;
+}
+/* Forth Section */
+.titleforth{
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    color: black;
+}
+.titleforth>span{
+    color: #75BF7A;
+}
+.paraforth{
+    text-align: center;
+    color:    #9E9DA2;
+    font-size: 23px;
+    line-height: 28px;
+    margin: 20px;
+    
+}
+.h33{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+}
+.paraa{
+    color: #9E9DA2;
+    font-weight: 450;
+ 
+}
+.pp1{
+    text-align: right;
+}
+.fsecpart{
+    display: none;
+}
+.loader{
+    text-align: center;
+    margin: 50px;
+   
+}
+.twoword{
+    text-align: center;
+    margin: 20px 0px;
+}
+.twoword>h2{
+    color: black;
+font-weight: bolder;
+}
+.twoword>h2>span{
+    color: #75BF7A;
+}
+.sixheading{
+    display: flex;
+    
+}
+.sixgroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.sixthh2{
+    font-size: 75px;
+    color: #75BF7A;
+}
+.sixthh3{
+    font-size: 25px;
+    color: black;
+    padding-top: 20px;
+    padding-left: 14px;
+ 
+}
+.sisthpara{
+    color: #9E9DA2;
+   
+}
+/* .sixmain{
+    /* background-color: rgb(17, 17, 17); */
+/* } */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px){
+    .navbar{
+        height: auto;
+    }
+.nav-item{
+    text-align: center;
+    padding-top: 7px;
+}
+.carimg>img{
+    width: 100%;
+    height: auto;
+}
+.sli1>div>h1{
+    
+    line-height: 
+   40px;
+    font-size: 45px;
+   
+}
+.sli1>div>p{
+  
+    font-size: 
+    13px;
+    
+}
+.b2{
+    margin-left: 1px;
+}
+
+
+.narr1{
+    height: 85;
+}
+.navbar-brand{
+    color: white;
+    font-size: 20px;
+}
+.titleForm {
+    font-size: 18px;
+   
+}
+.inputbut>input{
+   
+width: 290px;
+
+}
+.inputbut>button{
+    
+width: 100px;
+
+
+}
+
+}
+
+@media only screen and (max-width: 767px){
+    .titleForm {
+        font-size: 12px;
+       
+    }
+    .inputbut>input{
+       
+    width: 220px;
+    
+    }
+    .inputbut>button{
+        
+    width: 80px;
+    
+    
+    }
+    .inputbut>button>span{
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .paraforth{
+       
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .titleforth{
+        font-weight: bold;
+        font-size: 30px;
+    }
+   .circleee{
+    display: none;
+   }
+   .fsec2{
+    display: none;
+   }
+   .mobilee{
+    display: contents !important;
+   }
+  
+   .fecimg{
+    text-align: center;
+    padding-top: 50px;
+    width: auto;
+   }
+   .fecimg2{
+    text-align: center;
+position: absolute;
+top: 1395px;
+right: 4px;
+left: 4px;
+z-index: -5;
+   }
+
+    }
+
+
+@media only screen and (max-width: 600px){
+    .sli1{
+        text-align: center;
+        padding: 15px 15px;
+
+    }
+    .sli1>div>h1{
+    
+        line-height: 
+       35px;
+        font-size: 35px;
+       
+    }
+.main{
+    flex-direction: column-reverse;
+}
+.carimg>img{
+    padding: 40px 0px;
+}
+.fecimg{
+    margin-top: -50px;
+}
+.tar{
+    text-align: center;
+    font-size: 18px;
+    flex-wrap: wrap;
+}
+.tar>h3{
+    font-size: 22px;
+}
+
+}
+@media only screen and (max-width: 525px){
+    .thirdpart{
+        display: block;
+    }
+    .titleForm {
+        font-size: 20px;      
+    }
+    .inputbut>input{
+        width: 270px;
+        margin: 10px 0px; 
+    }
+    .inputbut>button{     
+    width: 270px; 
+    }
+    .inputbut>button>span{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    
+    .paraforth{
+       
+        font-size: 14px;
+        line-height: 17px;
+        margin: 7px 0px;
+    }
+    .titleforth{
+        font-weight: bold;
+        font-size: 25px;
+      
+    }
+    .fecimg2{
+        padding-top: 50px;
+    }
+}
+@media only screen and (max-width: 520px){
+    .fecimg2{
+        position: absolute;
+    }
+}
+@media only screen and (max-width: 500px){
+    .narr1{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .navbar-brand{
+        color: white;
+        font-size: 20px;
+    }
+    .form-control{
+        height: 50px;
+        width: 350px;
+        border: none;
+        border-radius: 4.39px;
+    }
+    .btn-outline-success{
+        background-color: black;
+        color: white;
+        font-weight: 700;
+        height: 50px;
+        width: 200px;
+        border: none;
+        border-radius: 4.39px;
+        
+    }
+}
+@media only screen and (max-width: 500px){
+    .inputbut>input{
+       
+        width: 220px;
+        
+        }
+        .inputbut>button{
+            
+        width: 220px;
+
+}
+}
+@media only screen and (max-width: 381px){
+    .fecimg{
+padding-left: 80px;
+    }
+}
